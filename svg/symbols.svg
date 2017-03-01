@@ -1,0 +1,244 @@
+<svg display="none">
+  <symbol id="orange" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 461 565.32">
+    <title>Orange</title>
+    <path d="M663.43,117.95c1.35,0,2.67,0,4,.05,23.35.62,49.18,6.32,74.69,16.5a272.7,272.7,0,0,1,74.62,44.83c24.42,20.74,43.7,44.81,57.31,71.53A210.9,210.9,0,0,1,897,347.5a229.5,229.5,0,1,1-459,0,212,212,0,0,1,19.5-89.3,234.69,234.69,0,0,1,49.56-69.56c38.07-37.25,88.69-63.15,135.41-69.29a161.41,161.41,0,0,1,21-1.4m0-1a161.51,161.51,0,0,0-21.09,1.41C553.52,130,437,215.82,437,347.5,437,474.8,540.2,578,667.5,578S898,474.8,898,347.5C898,201.91,760,119.44,667.5,117c-1.19,0-2.55-.05-4.07-.05Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+    <g>
+      <circle cx="179.5" cy="351.82" r="3" fill="#fff"/>
+      <path d="M616.5,362a2.5,2.5,0,1,1-2.5,2.5,2.5,2.5,0,0,1,2.5-2.5m0-1a3.5,3.5,0,1,0,3.5,3.5,3.5,3.5,0,0,0-3.5-3.5Z" transform="translate(-437 -12.68)"/>
+    </g>
+    <g>
+      <circle cx="179.5" cy="351.82" r="3" fill="#fff"/>
+      <path d="M616.5,362a2.5,2.5,0,1,1-2.5,2.5,2.5,2.5,0,0,1,2.5-2.5m0-1a3.5,3.5,0,1,0,3.5,3.5,3.5,3.5,0,0,0-3.5-3.5Z" transform="translate(-437 -12.68)"/>
+    </g>
+    <g>
+      <circle cx="179.5" cy="351.82" r="3" fill="#fff"/>
+      <path d="M616.5,362a2.5,2.5,0,1,1-2.5,2.5,2.5,2.5,0,0,1,2.5-2.5m0-1a3.5,3.5,0,1,0,3.5,3.5,3.5,3.5,0,0,0-3.5-3.5Z" transform="translate(-437 -12.68)"/>
+    </g>
+    <g>
+      <ellipse cx="207" cy="256.32" rx="5"/>
+      <path d="M649,269h0Z" transform="translate(-437 -12.68)"/>
+    </g>
+    <g>
+      <g>
+        <circle cx="137" cy="192.32" r="1.5" fill="#ffad00"/>
+        <path d="M574,204a1,1,0,1,1-1,1,1,1,0,0,1,1-1m0-1a2,2,0,1,0,2,2,2,2,0,0,0-2-2Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="96.5" cy="239.82" r="3" fill="#ffad00"/>
+        <path d="M533.5,250a2.5,2.5,0,1,1-2.5,2.5,2.5,2.5,0,0,1,2.5-2.5m0-1a3.5,3.5,0,1,0,3.5,3.5,3.5,3.5,0,0,0-3.5-3.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="179.5" cy="351.82" r="3" fill="#ffad00"/>
+        <path d="M616.5,362a2.5,2.5,0,1,1-2.5,2.5,2.5,2.5,0,0,1,2.5-2.5m0-1a3.5,3.5,0,1,0,3.5,3.5,3.5,3.5,0,0,0-3.5-3.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="239.5" cy="363.82" r="1" fill="#ffad00"/>
+        <path d="M676.5,376a.5.5,0,1,1-.5.5.5.5,0,0,1,.5-.5m0-1a1.5,1.5,0,1,0,1.5,1.5,1.5,1.5,0,0,0-1.5-1.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="279" cy="264.32" r="7.5" fill="#ffad00"/>
+        <path d="M716,270a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1a8,8,0,1,0,8,8,8,8,0,0,0-8-8Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="372" cy="317.32" r="7.5" fill="#ffad00"/>
+        <path d="M809,323a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1a8,8,0,1,0,8,8,8,8,0,0,0-8-8Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="385.5" cy="388.82" r="5" fill="#ffad00"/>
+        <path d="M822.5,397a4.5,4.5,0,1,1-4.5,4.5,4.51,4.51,0,0,1,4.5-4.5m0-1a5.5,5.5,0,1,0,5.5,5.5,5.5,5.5,0,0,0-5.5-5.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="305" cy="213.32" r="2.5" fill="#ffad00"/>
+        <path d="M742,224a2,2,0,1,1-2,2,2,2,0,0,1,2-2m0-1a3,3,0,1,0,3,3,3,3,0,0,0-3-3Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="248.5" cy="182.82" r="2" fill="#ffad00"/>
+        <path d="M685.5,194a1.5,1.5,0,1,1-1.5,1.5,1.5,1.5,0,0,1,1.5-1.5m0-1a2.5,2.5,0,1,0,2.5,2.5,2.5,2.5,0,0,0-2.5-2.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="215.5" cy="219.82" r="3" fill="#ffad00"/>
+        <path d="M652.5,230a2.5,2.5,0,1,1-2.5,2.5,2.5,2.5,0,0,1,2.5-2.5m0-1a3.5,3.5,0,1,0,3.5,3.5,3.5,3.5,0,0,0-3.5-3.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="162.5" cy="255.82" r="6" fill="#ffad00"/>
+        <path d="M599.5,263a5.5,5.5,0,1,1-5.5,5.5,5.51,5.51,0,0,1,5.5-5.5m0-1a6.5,6.5,0,1,0,6.5,6.5,6.5,6.5,0,0,0-6.5-6.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="115" cy="324.32" r="6.5" fill="#ffad00"/>
+        <path d="M552,331a6,6,0,1,1-6,6,6,6,0,0,1,6-6m0-1a7,7,0,1,0,7,7,7,7,0,0,0-7-7Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="88" cy="374.32" r="8.5" fill="#ffad00"/>
+        <path d="M525,379a8,8,0,1,1-8,8,8,8,0,0,1,8-8m0-1a9,9,0,1,0,9,9,9,9,0,0,0-9-9Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="110" cy="433.32" r="1.5" fill="#ffad00"/>
+        <path d="M547,445a1,1,0,1,1-1,1,1,1,0,0,1,1-1m0-1a2,2,0,1,0,2,2,2,2,0,0,0-2-2Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="147.5" cy="471.82" r="8" fill="#ffad00"/>
+        <path d="M584.5,477a7.5,7.5,0,1,1-7.5,7.5,7.51,7.51,0,0,1,7.5-7.5m0-1a8.5,8.5,0,1,0,8.5,8.5,8.5,8.5,0,0,0-8.5-8.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="189.5" cy="472.82" r="6" fill="#ffad00"/>
+        <path d="M626.5,480a5.5,5.5,0,1,1-5.5,5.5,5.51,5.51,0,0,1,5.5-5.5m0-1a6.5,6.5,0,1,0,6.5,6.5,6.5,6.5,0,0,0-6.5-6.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="245" cy="449.32" r="3.5" fill="#ffad00"/>
+        <path d="M682,459a3,3,0,1,1-3,3,3,3,0,0,1,3-3m0-1a4,4,0,1,0,4,4,4,4,0,0,0-4-4Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="178" cy="385.32" r="1.5" fill="#ffad00"/>
+        <path d="M615,397a1,1,0,1,1-1,1,1,1,0,0,1,1-1m0-1a2,2,0,1,0,2,2,2,2,0,0,0-2-2Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="199" cy="418.32" r="2.5" fill="#ffad00"/>
+        <path d="M636,429a2,2,0,1,1-2,2,2,2,0,0,1,2-2m0-1a3,3,0,1,0,3,3,3,3,0,0,0-3-3Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="217.5" cy="140.82" r="1" fill="#ffad00"/>
+        <path d="M654.5,153a.5.5,0,1,1-.5.5.5.5,0,0,1,.5-.5m0-1a1.5,1.5,0,1,0,1.5,1.5,1.5,1.5,0,0,0-1.5-1.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="305" cy="172.32" r="7.5" fill="#ffad00"/>
+        <path d="M742,178a7,7,0,1,1-7,7,7,7,0,0,1,7-7m0-1a8,8,0,1,0,8,8,8,8,0,0,0-8-8Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="373.5" cy="217.82" r="1" fill="#ffad00"/>
+        <path d="M810.5,230a.5.5,0,1,1-.5.5.5.5,0,0,1,.5-.5m0-1a1.5,1.5,0,1,0,1.5,1.5,1.5,1.5,0,0,0-1.5-1.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="409" cy="263.32" r="0.5" fill="#ffad00"/>
+        <path d="M846,275a1,1,0,1,0,1,1,1,1,0,0,0-1-1Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="315" cy="502.32" r="1.5" fill="#ffad00"/>
+        <path d="M752,514a1,1,0,1,1-1,1,1,1,0,0,1,1-1m0-1a2,2,0,1,0,2,2,2,2,0,0,0-2-2Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="248.5" cy="513.82" r="2" fill="#ffad00"/>
+        <path d="M685.5,525a1.5,1.5,0,1,1-1.5,1.5,1.5,1.5,0,0,1,1.5-1.5m0-1a2.5,2.5,0,1,0,2.5,2.5,2.5,2.5,0,0,0-2.5-2.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="204.5" cy="513.82" r="2" fill="#ffad00"/>
+        <path d="M641.5,525a1.5,1.5,0,1,1-1.5,1.5,1.5,1.5,0,0,1,1.5-1.5m0-1a2.5,2.5,0,1,0,2.5,2.5,2.5,2.5,0,0,0-2.5-2.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="328" cy="385.32" r="1.5" fill="#ffad00"/>
+        <path d="M765,397a1,1,0,1,1-1,1,1,1,0,0,1,1-1m0-1a2,2,0,1,0,2,2,2,2,0,0,0-2-2Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="375" cy="447.32" r="1.5" fill="#ffad00"/>
+        <path d="M812,459a1,1,0,1,1-1,1,1,1,0,0,1,1-1m0-1a2,2,0,1,0,2,2,2,2,0,0,0-2-2Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="217" cy="277.32" r="4.5" fill="#ffad00"/>
+        <path d="M654,286a4,4,0,1,1-4,4,4,4,0,0,1,4-4m0-1a5,5,0,1,0,5,5,5,5,0,0,0-5-5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <path d="M698,332.5a9.5,9.5,0,1,1,9.5-9.5A9.51,9.51,0,0,1,698,332.5Z" transform="translate(-437 -12.68)" fill="#ffad00"/>
+        <path d="M698,314a9,9,0,1,1-9,9,9,9,0,0,1,9-9m0-1a10,10,0,1,0,10,10,10,10,0,0,0-10-10Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="42.5" cy="320.82" r="3" fill="#ffad00"/>
+        <path d="M479.5,331a2.5,2.5,0,1,1-2.5,2.5,2.5,2.5,0,0,1,2.5-2.5m0-1a3.5,3.5,0,1,0,3.5,3.5,3.5,3.5,0,0,0-3.5-3.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+      <g>
+        <circle cx="40.5" cy="372.82" r="1" fill="#ffad00"/>
+        <path d="M477.5,385a.5.5,0,1,1-.5.5.5.5,0,0,1,.5-.5m0-1a1.5,1.5,0,1,0,1.5,1.5,1.5,1.5,0,0,0-1.5-1.5Z" transform="translate(-437 -12.68)" fill="#ffaa2a"/>
+      </g>
+    </g>
+    <path d="M895.5,164.5" transform="translate(-437 -12.68)" fill="none" stroke="#ffaa2a" stroke-miterlimit="10"/>
+    <g>
+      <path d="M628.5,120.5c.57-3.54-22.6-3.64-31-21-5.82-12-6.07-29.45,1-33,0,0,3.65-1.48,28,20h0c24.76,26.65-48.73-86.7-82-72-10.95,4.84-8.74,31.16-8,40,.54,6.49,3.49,41.59,32,60C594.7,131.41,627.81,124.76,628.5,120.5Z" transform="translate(-437 -12.68)" fill="#00aa03" stroke="#45bf00" stroke-miterlimit="10"/>
+      <path d="M628.5,120.5c-8.86-5.36-4.77-30.76,4-48,12.27-24.11,39.28-43.19,49-37,9.09,5.79,3.55,33.94-8,53C661.39,108.5,638,126.23,628.5,120.5Z" transform="translate(-437 -12.68)" fill="#00aa03" stroke="#45bf00" stroke-miterlimit="10"/>
+    </g>
+    <path d="M1010.5,249.5" transform="translate(-437 -12.68)" fill="none" stroke="#ffaa2a" stroke-miterlimit="10"/>
+  </symbol>
+  <symbol id="lemon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154.78 80.92">
+    <title>Lemon</title>
+    <g>
+      <path d="M45.5,101.5l14,3a81.27,81.27,0,0,1,18-18c4.87-3.52,20.73-14.68,43-15a69.19,69.19,0,0,1,8.71.44A76,76,0,0,1,162.5,84.5a77.73,77.73,0,0,1,20.35,20.2l16.43-3.33" transform="translate(-45 -70.99)" stroke="#fff52a" stroke-miterlimit="10"/>
+      <line x1="0.5" y1="46.51" x2="0.5" y2="30.51" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    </g>
+    <g>
+      <path d="M197.64,117.28,184,112.86A65.75,65.75,0,0,1,160.5,140.5a68.91,68.91,0,0,1-27,10c-6.24.94-26.83,3.7-47-9a66.83,66.83,0,0,1-25-29l-16,5" transform="translate(-45 -70.99)" stroke="#fff52a" stroke-miterlimit="10"/>
+      <line x1="154.28" y1="30.37" x2="152.64" y2="46.29" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    </g>
+    <path d="M157.5,135.5" transform="translate(-45 -70.99)" fill="none" stroke="#000" stroke-miterlimit="10"/>
+    <circle cx="55" cy="12.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="44" cy="54.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="77" cy="57.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="107" cy="22.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="105" cy="39.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="88" cy="66.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="99" cy="58.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="65" cy="30.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="44" cy="29.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="65" cy="65.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="117" cy="30.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="87" cy="23.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="86" cy="41.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="77" cy="12.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="141" cy="39.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="35" cy="41.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="20" cy="30.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="9" cy="38.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="64" cy="49.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="123" cy="46.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+    <circle cx="123" cy="54.01" r="0.5" fill="none" stroke="#fff52a" stroke-miterlimit="10"/>
+  </symbol>
+  <symbol id="grape" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 120.31">
+    <title>Grape</title>
+    <g>
+      <path d="M111.5,86.5a15,15,0,1,1,15-15A15,15,0,0,1,111.5,86.5Z" transform="translate(-66 -18.69)"/>
+      <path d="M111.5,57A14.5,14.5,0,1,1,97,71.5,14.52,14.52,0,0,1,111.5,57m0-1A15.5,15.5,0,1,0,127,71.5,15.5,15.5,0,0,0,111.5,56Z" transform="translate(-66 -18.69)" fill="#bd00bf"/>
+    </g>
+    <g>
+      <path d="M81.5,86.5a15,15,0,1,1,15-15A15,15,0,0,1,81.5,86.5Z" transform="translate(-66 -18.69)"/>
+      <path d="M81.5,57A14.5,14.5,0,1,1,67,71.5,14.52,14.52,0,0,1,81.5,57m0-1A15.5,15.5,0,1,0,97,71.5,15.5,15.5,0,0,0,81.5,56Z" transform="translate(-66 -18.69)" fill="#bd00bf"/>
+    </g>
+    <g>
+      <path d="M141.5,86.5a15,15,0,1,1,15-15A15,15,0,0,1,141.5,86.5Z" transform="translate(-66 -18.69)"/>
+      <path d="M141.5,57A14.5,14.5,0,1,1,127,71.5,14.52,14.52,0,0,1,141.5,57m0-1A15.5,15.5,0,1,0,157,71.5,15.5,15.5,0,0,0,141.5,56Z" transform="translate(-66 -18.69)" fill="#bd00bf"/>
+    </g>
+    <g>
+      <path d="M95.5,112.5a15,15,0,1,1,15-15A15,15,0,0,1,95.5,112.5Z" transform="translate(-66 -18.69)"/>
+      <path d="M95.5,83A14.5,14.5,0,1,1,81,97.5,14.52,14.52,0,0,1,95.5,83m0-1A15.5,15.5,0,1,0,111,97.5,15.5,15.5,0,0,0,95.5,82Z" transform="translate(-66 -18.69)" fill="#bd00bf"/>
+    </g>
+    <g>
+      <path d="M126.5,112.5a15,15,0,1,1,15-15A15,15,0,0,1,126.5,112.5Z" transform="translate(-66 -18.69)"/>
+      <path d="M126.5,83A14.5,14.5,0,1,1,112,97.5,14.52,14.52,0,0,1,126.5,83m0-1A15.5,15.5,0,1,0,142,97.5,15.5,15.5,0,0,0,126.5,82Z" transform="translate(-66 -18.69)" fill="#bd00bf"/>
+    </g>
+    <g>
+      <path d="M111.5,138.5a15,15,0,1,1,15-15A15,15,0,0,1,111.5,138.5Z" transform="translate(-66 -18.69)"/>
+      <path d="M111.5,109A14.5,14.5,0,1,1,97,123.5,14.52,14.52,0,0,1,111.5,109m0-1A15.5,15.5,0,1,0,127,123.5,15.5,15.5,0,0,0,111.5,108Z" transform="translate(-66 -18.69)" fill="#bd00bf"/>
+    </g>
+    <path d="M111.5,56.5c-1.18-1.06-8.9-8.2-8-18,1.13-12.3,15.12-21.12,24-19,3.19.76,7.81,3.43,8,7a5.26,5.26,0,0,1-3,5c-2.35.86-3.92-1.61-7-2-6-.77-11.51,7.26-12,8C108.13,45.59,111,55,111.5,56.5Z" transform="translate(-66 -18.69)" fill="#fff" stroke="#16bf00" stroke-miterlimit="10"/>
+    <path d="M274.5,83.5" transform="translate(-66 -18.69)" fill="#fff" stroke="#16bf00" stroke-miterlimit="10"/>
+  </symbol>
+  <symbol id="bananna" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.53 112.49">
+    <title>Bananna</title>
+    <path d="M183.5,160.5c-24.39,20.56-58.78,23.12-84,7-29.09-18.59-40.33-58.43-24-92" transform="translate(-67.47 -66)" stroke="#ffd255" stroke-miterlimit="10"/>
+    <path d="M184.5,152.5c-5.29.31-42.36,1.86-69-27-18.45-20-21.37-43.16-22-51" transform="translate(-67.47 -66)" stroke="#ffd225" stroke-miterlimit="10"/>
+    <path d="M184.5,152.5l-1,8c-8.77,3.14-24.18,7-41,2-29-8.56-50.13-39.7-52-78" transform="translate(-67.47 -66)"  stroke="#ffd225" stroke-miterlimit="10"/>
+    <path d="M41.5,64.5" transform="translate(-67.47 -66)" stroke="#000" stroke-miterlimit="10"/>
+    <g>
+      <line x1="8.03" y1="9.5" x2="26.03" y2="8.5" fill="#aa7d00" stroke="#aa7d00" stroke-miterlimit="10"/>
+      <line x1="5.03" y1="1.5" x2="8.03" y2="9.5" fill="#aa7d00" stroke="#aa7d00" stroke-miterlimit="10"/>
+      <line x1="29.03" y1="0.5" x2="26.03" y2="8.5" fill="#aa7d00" stroke="#aa7d00" stroke-miterlimit="10"/>
+    </g>
+    <line x1="5.03" y1="1.5" x2="29.03" y2="0.5" fill="none" stroke="#aa7d00" stroke-miterlimit="10"/>
+  </symbol>
+  <symbol id="apple" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111.2 102.19">
+    <title>Apple</title>
+    <g>
+      <line x1="58.01" y1="26.68" x2="65.26" y2="1.18" fill="none" stroke="#7f5d00" stroke-miterlimit="10"/>
+      <line x1="50.76" y1="2.16" x2="64.22" y2="1.18" fill="none" stroke="#7f5d00" stroke-miterlimit="10"/>
+      <line x1="54.9" y1="26.68" x2="50.76" y2="2.16" fill="none" stroke="#7f5d00" stroke-miterlimit="10"/>
+    </g>
+    <path d="M124.5,88.5c19.38-8.66,31.07-16,30-21-.46-2.11-3.1-3.21-5-4-7.89-3.28-19.33.43-24,9C121.72,79.43,123.91,86.72,124.5,88.5Z" transform="translate(-66.24 -61.82)" fill="#00aa31" stroke="#00aa31" stroke-miterlimit="10"/>
+    <line x1="58.26" y1="26.68" x2="83.26" y2="1.68" stroke="#00aa4d" stroke-miterlimit="10"/>
+    <path d="M145.5,163.5c16.51-.37,25.18-21.55,27-26,6.41-15.64,7.05-39.38-6-49-5.28-3.89-11.51-4.53-16-5a47.21,47.21,0,0,0-26,5,59.5,59.5,0,0,0-30-5c-6.7.67-13.42,1.44-19,6-11.73,9.59-10.2,31.7-4,46,1.22,2.82,12.7,28.27,34,28,10.12-.13,17.67-6,21-9C129.11,157.19,136.18,163.71,145.5,163.5Z" transform="translate(-66.24 -61.82)" stroke="#ff443f" stroke-miterlimit="10"/>
+  </symbol>
+</svg>
