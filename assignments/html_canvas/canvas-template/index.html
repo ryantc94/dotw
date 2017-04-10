@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Canvas Template</title>
+    
+    <style>
+      body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      #container {
+        width: 1950px;
+        height: 100%;
+        margin: auto;
+      }
+      
+      #frames {
+        width: inherit;
+        height: 450px;
+        position: absolute;
+        top: 50%;
+        margin-top: -225px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+
+      iframe {
+        float: left;
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: #e0e0e0; /* feel free to change or remove this color */
+        border: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="frames">
+        <iframe src="drawings/drawing-1.html" width="600" height="450"></iframe>
+        <iframe src="drawings/drawing-2.html" width="600" height="450"></iframe>
+        <iframe src="drawings/drawing-3.html" width="600" height="450"></iframe>
+      </div>
+    </div>
+  </body>
+</html>

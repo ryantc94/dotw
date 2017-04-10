@@ -1,0 +1,22 @@
+
+header{
+	text-align: center;
+	font-family: Courier, monospace;
+}
+
+nav {
+	text-align: center;
+}
+
+li {
+	font-family: Courier, monospace;
+}
+
+a:link {
+	color: purple;
+	text-decoration: none;
+}
+
+a:visited {
+	color: green;
+}

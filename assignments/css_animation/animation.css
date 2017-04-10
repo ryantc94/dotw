@@ -1,0 +1,97 @@
+
+/*questions: how to make the transition smoother (ease-in-out)?
+			 how to ease opacity to 0.75 better
+			 how come multiple transform doesn't work
+			 kind threw some perspective in there but not sure if it worked*/
+
+			 /*animation-transition-function:cubic-bezier(start speed, to speed, from speed, to end speed)*/
+
+			 /*cant do 3d translation without context, 
+			 and context is it needs to be transofrmed to a parent element with perspective*/
+
+@keyframes single {
+	11% {
+		/*Moves from origin everytime*/
+		transform: scale(1, 1) translate(100px, -30px);
+	}
+	22% {
+		transform: scale(1.1, 1.1) translate(200px, 60px);
+	}
+	33% {
+		transform: scale(1.2, 1.2) translate(300px, -30px);
+	}
+	44% {
+		transform: scale(1.3, 1.3) translate(400px, 60px);
+	}
+	55% {
+		transform: scale(1.4, 1.5) translate(500px, -30px);
+	}
+	66% {
+		transform: scale(1.6, 1.6) translate(600px, 60px);
+	}
+	77% {
+		transform: scale(1.7, 1.7) translate(700px, -30px);
+	}
+	100% {
+		perspective: 0px;
+	}
+}
+
+body {
+	background-color: black;
+}
+
+.note {
+	-webkit-filter: invert(100%);
+	position: absolute;
+	width:22.5px;
+	height:60px;
+	top: 250px;
+	left: 390px;
+}
+
+#sax {
+	opacity: 0.75;
+	position: absolute;
+	border: solid;
+	top: 150px;
+	left: 175px;
+	width: 300px;
+	height: 400px;
+	content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Saxophone_01.svg/379px-Saxophone_01.svg.png");
+	transform: rotate3d(0,0,1,10deg);
+}
+
+#sax:active {
+	perspective: 1000px;
+	perspective-origin: -50% 30%;
+	transition-property: transform;
+	transition-duration: 0.75s;
+	transition-timing-function: ease-out;
+	transform: rotate3d(0,0,10,10deg) scale(1.5, 1.5);
+}
+
+#single {
+	/*border: solid;*/
+	animation-name: single;
+	animation-duration: 5.5s;
+	/*loop*/
+	/*animation-timing-function for the ease-in-out*/
+	animation-iteration-count: infinite;
+	content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Figure_rythmique_double_croche_hampe_haut.svg/24px-Figure_rythmique_double_croche_hampe_haut.svg.png");
+}
+
+/*#gif {
+	opacity: 0.5;
+	position: absolute;
+	width: 100%;
+    height: 100%;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}*/
+
+
