@@ -4,6 +4,7 @@ function setup() {
   createCanvas(600, 450);
 
   //global
+  flight = createVideo('media/flight.mp4');
   doggoPhoto = loadImage('doggo.jpeg');
 }
 

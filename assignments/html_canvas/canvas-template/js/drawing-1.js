@@ -2,10 +2,10 @@
 
 function setup() {
   createCanvas(600, 450);
-  stroke(255, 0, 0); // (red) remove this line
-  line(0, 0, 600, 450); // remove this line
+  
+  dogAttack = createVideo('dogVid.mp4');
 }
 
 function draw() {
-	// Drawing code goes here
+	image(dogAttack, 0, 0, 800, 450);
 }
