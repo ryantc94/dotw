@@ -3,7 +3,7 @@
 function setup() {
   createCanvas(600, 450);
   
-  dogAttack = createVideo('dogVid.mp4');
+  dogAttack = createVideo('js/dogVid.mp4');
   dogAttack.loop();
   dogAttack.hide();
 }
