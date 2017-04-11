@@ -4,7 +4,7 @@ function setup() {
   createCanvas(600, 450);
 
   //global
-  doggoPhoto = loadImage('doggo.png');
+  doggoPhoto = loadImage('doggo.jpeg');
 }
 
 function draw() {
