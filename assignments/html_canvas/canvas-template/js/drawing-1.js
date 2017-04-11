@@ -4,6 +4,8 @@ function setup() {
   createCanvas(600, 450);
   
   dogAttack = createVideo('dogVid.mp4');
+  dogAttack.loop();
+  dogAttack.hide();
 }
 
 function draw() {
