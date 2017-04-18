@@ -7,9 +7,9 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 450);
+  	createCanvas(600, 450);
 
-  picture.loadPixels();
+  	picture.loadPixels();
 
 	ellipseMode(CORNER);
 
@@ -17,13 +17,17 @@ function setup() {
     	for (var x = 0; x < picture.width; x++) { 
       		var index = (x + y * picture.width) * 4; 
 
+      		var r = video.pixels[index]; // access red value of current pixel
+      		var g = video.pixels[index + 1]; // access green value
+      		var b = video.pixels[index + 2]; // access blue value
 
-      		fill(random(255), random(255), random(255))
+      		var gray = (r + g + b) / 3;
+
+      		fill(gray);
       		noStroke();
       		ellipse(x * vScale, y * vScale, vScale-1, vScale-1);
       	}
     }	
-
 }
 
 function draw() {
