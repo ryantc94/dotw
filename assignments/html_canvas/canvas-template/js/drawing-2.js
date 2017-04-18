@@ -4,8 +4,8 @@ function setup() {
   createCanvas(600, 450);
 }
 
-x = 0;
-y = 0; 
+x = 300;
+y = 225; 
 
 function draw() {
 
@@ -17,13 +17,13 @@ function draw() {
 
 	ellipseMode(CENTER);
 
-	ellipse(x, y, 50, 50);
-	ellipse(x, y, 50, 50);
-	ellipse(x, y, 50, 50);
-	ellipse(x, y, 50, 50);
-	ellipse(x, y, 50, 50);
-	ellipse(x, y, 50, 50);
-	ellipse(x, y, 50, 50);
+	ellipse(400, 300, 50, 50);
+	ellipse(350, 250, 50, 50);
+	ellipse(300, 200, 50, 50);
+	ellipse(250, 150, 50, 50);
+	ellipse(200, 100, 50, 50);
+	ellipse(150, 50, 50, 50);
+	ellipse(100, 0, 50, 50);
 
 
 }
