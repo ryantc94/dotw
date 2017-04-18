@@ -30,7 +30,7 @@ function draw() {
 
 	x += speed;
 
-	if ((x > 600) || (x < -100)) {
+	if ((x > 450) || (x < -200)) {
     	speed = speed * -1;
   	}
 
