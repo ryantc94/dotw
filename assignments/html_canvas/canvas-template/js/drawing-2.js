@@ -17,7 +17,13 @@ function draw() {
 
 	ellipseMode(CENTER);
 
-	ellipse(300, 50, 50, 50);
-
+	ellipse(300, 75, 50, 50);
+	ellipse(400, 50, 50, 50);
+	// ellipse(300, 75, 50, 50);
+	// ellipse(300, 75, 50, 50);
+	// ellipse(300, 75, 50, 50);
+	// ellipse(300, 75, 50, 50);
+	// ellipse(300, 75, 50, 50);
+	// ellipse(300, 75, 50, 50);
 
 }
