@@ -2,7 +2,7 @@ var canvas = document.getElementById('drawing');
 var context = canvas.getContext('2d');
 
 var dog = new Image();
-dog.src = 'doggo.jpeg';
+dog.src = 'media/doggo.jpeg';
 
 function draw() {
   context.drawImage(dog, 0, 0);
