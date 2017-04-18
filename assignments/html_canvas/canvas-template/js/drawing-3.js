@@ -1,43 +1,21 @@
-	// Drawing 3
-var backgroundColor;
-var picture; 
-var vScale = 10;
-var circleHover;
+var canvas = document.getElementById('drawing');
+var context = canvas.getContext('2d');
 
-function setup() {
-  	createCanvas(600, 450);
-  	backgroundColor = color(255, 255, 255);
-}
+var dog = new Image();
+dog.src = 'doggo.jpeg';
 
 function draw() {
-	ellipseMode(CORNER);
-
-	var distance = dist(mouseX, mouseY, width/2, height/2);
-
-  // Determine if distance is less than circle radius
-	if (distance < 50) {
-		circleHover = true;
-	} else {
-	    circleHover = false;
-	}
-
-	ellipseMode(CENTER);
-  	noStroke();
-
-	if (circleHover == true) {
-    	fill(100);
-    	cursor(HAND);
-  	} else {
-    	fill(200);
-    	cursor(ARROW);
-  	}
-
-  	ellipse(width/2, height/2, 100, 100);
+  context.drawImage(dog, 0, 0);
 }
 
-function mousePressed() {
-  if (circleHover == true) {
-  	loadImage('media/doggo.jpeg');
-    backgroundColor = color(random(255), random(255), random(255));
-  }
+var imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+var data = imageData.data;
+
+for (var i = 0; i < data.length; i += 4) {
+	data[i] = 255 - data[i];
+	data[i + 1] = 255 - data[i + 1];
+	data[i + 2] = 255 - data[i + 2]; 
 }
+
+// redraw image with updated pixels
+context.putImageData(imageData, 0, 0);
