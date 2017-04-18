@@ -1,9 +1,9 @@
 	// Drawing 3
 var picture; 
 var vScale = 10;
-var c1 = random(255);
-var c2 = random(255);
-var c3 = random(255);
+var c1 = Math.random(255);
+var c2 = Math.random(255);
+var c3 = Math.random(255);
 var circleHover;
 
 var x = [];
@@ -48,6 +48,6 @@ function draw() {
       		}
   		}
   	}	
-  		
+
   	ellipse(width/2, height/2, 100, 100);
 }
