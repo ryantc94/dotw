@@ -1,5 +1,7 @@
 // Drawing 2
 
+var mousePressed;
+
 function setup() {
   createCanvas(600, 450);
   wow = loadImage("media/wow.png")
@@ -7,9 +9,16 @@ function setup() {
 
 
 var x = 450;
-var speed = 2;
+var speed;
 
 function draw() {
+
+	if(mousePressed == true) {
+		speed = 0;
+	}
+	else {
+		speed = 2;
+	}
 
 	background(220);
 	
@@ -37,7 +46,8 @@ function draw() {
 }
 
 function mousePressed() {
-  speed = 0;
+	mousePressed = true;
+  	speed = 0;
 }
 
 
