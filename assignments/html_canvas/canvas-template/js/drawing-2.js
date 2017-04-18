@@ -6,7 +6,7 @@ function setup() {
 }
 
 
-var x = 0;
+var x = 450;
 var speed = 2;
 
 function draw() {
@@ -30,7 +30,7 @@ function draw() {
 
 	x += speed;
 
-	if ((x > width) || (x < 0)) {
+	if ((x > 600) || (x < 0)) {
     	speed = speed * -1;
   	}
 
