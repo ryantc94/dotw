@@ -18,9 +18,9 @@ function draw() {
 	ellipseMode(CENTER);
 
 	ellipse(300, 75, 50, 50);
-	ellipse(400, 125, 50, 50);
+	ellipse(410, 120, 50, 50);
 	ellipse(450, 225, 50, 50);
-	// ellipse(300, 75, 50, 50);
+	ellipse(410, 330, 50, 50);
 	// ellipse(300, 75, 50, 50);
 	// ellipse(300, 75, 50, 50);
 	// ellipse(300, 75, 50, 50);
