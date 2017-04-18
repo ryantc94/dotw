@@ -35,3 +35,9 @@ function draw() {
   	}
 
 }
+
+function mousePressed() {
+  speed = 0;
+}
+
+
