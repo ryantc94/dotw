@@ -1,13 +1,7 @@
 	// Drawing 3
 var picture; 
 var vScale = 10;
-var c1 = Math.random(255);
-var c2 = Math.random(255);
-var c3 = Math.random(255);
 var circleHover;
-
-var x = [];
-
 
 function preload(){
 	picture = loadImage('media/doggo.jpeg');
