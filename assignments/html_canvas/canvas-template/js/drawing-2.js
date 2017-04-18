@@ -5,11 +5,9 @@ function setup() {
   wow = loadImage("media/wow.png")
 }
 
-x1 = 300;
-y1 = 225; 
 
-x2 = 0;
-y2 = 0 
+var x = 0;
+var speed = 1;
 
 function draw() {
 
@@ -21,13 +19,18 @@ function draw() {
 
 	ellipseMode(CENTER);
 
-	image(wow, 300, 75, 50, 50);
-	image(wow, 400, 120, 50, 50);
-	image(wow, 450, 225, 50, 50);
-	image(wow, 400, 330, 50, 50);
-	image(wow, 300, 375, 50, 50);
-	image(wow, 200, 330, 50, 50);
-	image(wow, 150, 225, 50, 50);
-	image(wow, 200, 120, 50, 50);
+	image(wow, 300 + x, 75, 50, 50);
+	image(wow, 400 + x, 120, 50, 50);
+	image(wow, 450 + x, 225, 50, 50);
+	image(wow, 400 + x, 330, 50, 50);
+	image(wow, 300 + x, 375, 50, 50);
+	image(wow, 200 + x, 330, 50, 50);
+	image(wow, 150 + x, 225, 50, 50);
+	image(wow, 200 + x, 120, 50, 50);
+
+	if ((x > width) || (x < 0)) {
+    	speed = speed * -1;
+  	}
+
 
 }
