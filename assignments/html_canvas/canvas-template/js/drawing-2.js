@@ -7,7 +7,7 @@ function setup() {
 
 
 var x = 0;
-var speed = 1;
+var speed = 2;
 
 function draw() {
 
@@ -28,9 +28,10 @@ function draw() {
 	image(wow, 150 + x, 225, 50, 50);
 	image(wow, 200 + x, 120, 50, 50);
 
+	x += speed;
+
 	if ((x > width) || (x < 0)) {
     	speed = speed * -1;
   	}
-
 
 }
