@@ -19,7 +19,7 @@ function draw() {
 
 	ellipse(300, 75, 50, 50);
 	ellipse(400, 100, 50, 50);
-	ellipse(500, 125, 50, 50);
+	ellipse(450, 150, 50, 50);
 	// ellipse(300, 75, 50, 50);
 	// ellipse(300, 75, 50, 50);
 	// ellipse(300, 75, 50, 50);
