@@ -2,6 +2,7 @@
 
 function setup() {
   createCanvas(600, 450);
+  wow = loadImage("media/wow.png")
 }
 
 x1 = 300;
@@ -20,13 +21,13 @@ function draw() {
 
 	ellipseMode(CENTER);
 
-	ellipse(300, 75, 50, 50);
-	ellipse(400, 120, 50, 50);
-	ellipse(450, 225, 50, 50);
-	ellipse(400, 330, 50, 50);
-	ellipse(300, 375, 50, 50);
-	ellipse(200, 330, 50, 50);
-	ellipse(150, 225, 50, 50);
-	ellipse(200, 120, 50, 50);
+	image(wow, 300, 75, 50, 50);
+	image(wow, 400, 120, 50, 50);
+	image(wow, 450, 225, 50, 50);
+	image(wow, 400, 330, 50, 50);
+	image(wow, 300, 375, 50, 50);
+	image(wow, 200, 330, 50, 50);
+	image(wow, 150, 225, 50, 50);
+	image(wow, 200, 120, 50, 50);
 
 }
