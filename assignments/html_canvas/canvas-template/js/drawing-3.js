@@ -9,13 +9,7 @@ function preload(){
 function setup() {
   createCanvas(600, 450);
 
-}
-
-function draw() {
-
-	//sound https://www.youtube.com/watch?v=NF1lwZ24RYI
-
-	picture.loadPixels();
+  picture.loadPixels();
 
 	ellipseMode(CORNER);
 
@@ -29,4 +23,10 @@ function draw() {
       		ellipse(x * vScale, y * vScale, vScale-1, vScale-1);
       	}
     }	
+
+}
+
+function draw() {
+
+	//sound https://www.youtube.com/watch?v=NF1lwZ24RYI
 }
