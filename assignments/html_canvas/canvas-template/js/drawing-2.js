@@ -2,10 +2,26 @@
 
 function setup() {
   createCanvas(600, 450);
-  stroke(0, 255, 0); // (green) remove this line
-  line(0, 0, 600, 450); // remove this line
 }
 
+x = 0;
+y = 0; 
+
 function draw() {
-	// Drawing code goes here
+	
+	fill(0, 0, 0);
+
+	noStroke();
+
+	ellipseMode(center);
+
+	ellipse(x, y, 50, 50);
+	ellipse(x, y, 50, 50);
+	ellipse(x, y, 50, 50);
+	ellipse(x, y, 50, 50);
+	ellipse(x, y, 50, 50);
+	ellipse(x, y, 50, 50);
+	ellipse(x, y, 50, 50);
+
+
 }
