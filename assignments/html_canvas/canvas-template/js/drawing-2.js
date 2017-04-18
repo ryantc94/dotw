@@ -1,6 +1,6 @@
 // Drawing 2
 
-var mousePressed;
+var mousePressed = false;
 
 function setup() {
   createCanvas(600, 450);
