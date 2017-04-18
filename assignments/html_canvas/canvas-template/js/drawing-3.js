@@ -1,4 +1,5 @@
 	// Drawing 3
+var backgroundColor;
 var picture; 
 var vScale = 10;
 var circleHover;
