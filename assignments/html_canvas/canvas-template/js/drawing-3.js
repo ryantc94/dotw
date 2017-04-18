@@ -10,9 +10,6 @@ function setup() {
 }
 
 function draw() {
-
-	picture.loadPixels();
-
 	ellipseMode(CORNER);
 
 	var distance = dist(mouseX, mouseY, width/2, height/2);
