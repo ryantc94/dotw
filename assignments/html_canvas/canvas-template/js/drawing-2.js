@@ -18,8 +18,8 @@ function draw() {
 	ellipseMode(CENTER);
 
 	ellipse(300, 75, 50, 50);
-	ellipse(400, 50, 50, 50);
-	// ellipse(300, 75, 50, 50);
+	ellipse(400, 100, 50, 50);
+	ellipse(500, 125, 50, 50);
 	// ellipse(300, 75, 50, 50);
 	// ellipse(300, 75, 50, 50);
 	// ellipse(300, 75, 50, 50);
