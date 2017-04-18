@@ -17,9 +17,9 @@ function setup() {
     	for (var x = 0; x < picture.width; x++) { 
       		var index = (x + y * picture.width) * 4; 
 
-      		var r = video.pixels[index]; // access red value of current pixel
-      		var g = video.pixels[index + 1]; // access green value
-      		var b = video.pixels[index + 2]; // access blue value
+      		var r = picture.pixels[index]; // access red value of current pixel
+      		var g = picture.pixels[index + 1]; // access green value
+      		var b = picture.pixels[index + 2]; // access blue value
 
       		var gray = (r + g + b) / 3;
 
