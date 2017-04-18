@@ -1,15 +1,13 @@
 // Drawing 1
 
-var video; 
-var vScale = 10;
-
-// function preload() {
-// 	video = createVideo('media/dogVid.mp4');
-// }
-
 function setup() {
   createCanvas(600, 450);
   
-  video.loop();
-  video.hide();
+  dogAttack = createVideo('media/dogVid.mp4');
+  dogAttack.loop();
+  dogAttack.hide();
+}
+
+function draw() {
+	image(dogAttack, 0, 0, 800, 450);
 }
