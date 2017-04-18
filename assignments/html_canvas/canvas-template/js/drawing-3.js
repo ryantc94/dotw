@@ -15,13 +15,11 @@ function preload(){
 
 function setup() {
   	createCanvas(600, 450);
-
-  	picture.loadPixels();
-
-	
 }
 
 function draw() {
+
+	picture.loadPixels();
 
 	ellipseMode(CORNER);
 
@@ -38,16 +36,19 @@ function draw() {
   	noStroke();
 
 	if (circleHover == true) {
-    	for (var y = 0; y < picture.height; y++) { 
-    		for (var x = 0; x < picture.width; x++) { 
-      			var index = (x + y * picture.width) * 4; 
-
-      			fill(c1, c2, c3);
-	      		noStroke();
-	      		ellipse(x * vScale, y * vScale, vScale-1, vScale-1);
-      		}
-  		}
-  	}	
+    	fill(100);
+    	cursor(HAND);
+  	} else {
+    	fill(200);
+    	cursor(ARROW);
+  	}
 
   	ellipse(width/2, height/2, 100, 100);
+}
+
+function mousePressed() {
+  if (circleHover == true) {
+    backgroundColor = color(random(255), random(255), random(255));
+    spaceBlast.play();
+  }
 }
