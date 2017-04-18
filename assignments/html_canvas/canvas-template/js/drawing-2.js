@@ -21,7 +21,7 @@ function draw() {
 	ellipse(410, 120, 50, 50);
 	ellipse(450, 225, 50, 50);
 	ellipse(410, 330, 50, 50);
-	// ellipse(300, 75, 50, 50);
+	ellipse(300, 405, 50, 50);
 	// ellipse(300, 75, 50, 50);
 	// ellipse(300, 75, 50, 50);
 	// ellipse(300, 75, 50, 50);
