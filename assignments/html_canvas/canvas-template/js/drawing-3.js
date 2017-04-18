@@ -49,6 +49,5 @@ function draw() {
 function mousePressed() {
   if (circleHover == true) {
     backgroundColor = color(random(255), random(255), random(255));
-    spaceBlast.play();
   }
 }
