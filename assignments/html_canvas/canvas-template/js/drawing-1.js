@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
 	video.loadPixels();
-	image(dogAttack, 0, 0, 800, 450);
+	// image(dogAttack, 0, 0, 800, 450);
 
 	ellipseMode(center);
 
