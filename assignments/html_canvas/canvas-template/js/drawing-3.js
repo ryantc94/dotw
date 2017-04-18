@@ -4,12 +4,9 @@ var picture;
 var vScale = 10;
 var circleHover;
 
-function preload(){
-	picture = loadImage('media/doggo.jpeg');
-}
-
 function setup() {
   	createCanvas(600, 450);
+  	backgroundColor = color(255, 255, 255);
 }
 
 function draw() {
@@ -43,6 +40,7 @@ function draw() {
 
 function mousePressed() {
   if (circleHover == true) {
+  	loadImage('media/doggo.jpeg');
     backgroundColor = color(random(255), random(255), random(255));
   }
 }
