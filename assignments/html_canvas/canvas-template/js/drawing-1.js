@@ -16,12 +16,12 @@ function draw() {
 }
 
 function mousePressed() {
-	if(pause == false) {
-		pause = true;
+	// if(pause == false) {
+	// 	pause = true;
 		dogAttack.pause();
-	}
-	else {
-		pause = false;
-		dogAttack.loop();
-	}
+	// }
+	// else {
+	// 	pause = false;
+	// 	dogAttack.pause();
+	// }
 }
