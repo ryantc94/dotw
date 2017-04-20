@@ -9,4 +9,5 @@ function setup() {
 
 function draw() {
 	image(doggoPhoto, 0, 0);
+	image(doggoPhoto, mouseX, mouseY, 100, 100);
 }
