@@ -2,7 +2,7 @@
 
 function setup() {
   createCanvas(600, 450);
-  wow = loadImage("media/wow.png")
+  wow = loadImage("media/wow.png");
 }
 
 
