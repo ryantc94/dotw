@@ -8,7 +8,7 @@ function setup() {
   dogAttack = createVideo('media/dogVid.mp4');
   dogAttack.loop();
   dogAttack.hide();
-  text('Click To Play', 30, 40);
+  text('Click To Play/Pause', 30, 40);
 }
 
 function draw() {
