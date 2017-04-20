@@ -20,7 +20,6 @@ function setup() {
     	}
   	}
   	updatePixels();
-  	blendMode(EXCLUSION);
   	image(doggoPhoto, 0, 0);
 
   //global
