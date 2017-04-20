@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-	image(dogAttack, 0, 0, 570, 420);
+	image(dogAttack, 30, 40, 600, 450);
 }
 
 function mousePressed() {
