@@ -6,7 +6,7 @@ function init() {
 	scene = new THREE.Scene();
 	
 	var path = "media/sky/";
-  	var format = ".jpg";
+  	var format = ".png";
   	var urls = [
     	path + 'pos-x' + format, path + 'neg-x' + format,
     	path + 'pos-y' + format, path + 'neg-y' + format,
