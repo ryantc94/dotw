@@ -4,9 +4,19 @@ var geometry, material, mesh;
 
 function init() {
 	scene = new THREE.Scene();
-	var width = window.innerWidth;
-	var height = window.innerHeight;
+	
+	var path = "media/sky/";
+  	var format = ".jpg";
+  	var urls = [
+    	path + 'pos-x' + format, path + 'neg-x' + format,
+    	path + 'pos-y' + format, path + 'neg-y' + format,
+    	path + 'pos-z' + format, path + 'neg-z' + format
+  	];
 
+  	scene.background = new THREE.CubeTextureLoader().load(urls);
+
+  	var width = window.innerWidth;
+	var height = window.innerHeight;
 	camera = new THREE.PerspectiveCamera(45, width/height, 0.1, 25000);
 	camera.position.set(0, 200, 700);
 	scene.add(camera);
