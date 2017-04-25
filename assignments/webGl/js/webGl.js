@@ -26,9 +26,10 @@ function init() {
 	spotlight.shadow.camera.far = 2000;
 	spotlight.shadow.camera.fov = 45;
 
-	geometry = new THREE.OctahedronGeometry(200, 0); // radius, additional vertices
+	geometry = new THREE.SphereGeometry(100, 20, 20); // radius, additional vertices x and y
 	material = new  THREE.MeshBasicMaterial({color: 0xffff00, wireframe: true});
 	mesh = new THREE.Mesh(geometry, material); // combine geometry and material
+	mesh.position.y = 120;
 	scene.add(mesh);
 
 	var floorGeometry = new THREE.PlaneGeometry(1000, 1000, 10, 10); // x, y, vertices
