@@ -5,8 +5,8 @@ var geometry, material, mesh;
 function init() {
 	scene = new THREE.Scene();
 	
-	var path = "../../media/mp_orbital/";
-  	var format = ".png";
+	var path = "../media/mp_orbital/";
+  	var format = ".jpg";
   	var urls = [
     	path + 'pos-x' + format, path + 'neg-x' + format,
     	path + 'pos-y' + format, path + 'neg-y' + format,
