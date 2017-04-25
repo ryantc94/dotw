@@ -7,7 +7,7 @@ function init() {
   scene = new THREE.Scene();
 
   // skybox files
-  var path = "media/mp_orbital/";
+  var path = "media/skybox/";
   var format = ".jpg";
   var urls = [
     path + 'pos-x' + format, path + 'neg-x' + format,
