@@ -45,4 +45,11 @@ function init() {
 	renderer.render(scene, camera);
 }
 
+function animate() {
+  requestAnimationFrame(animate);
+  renderer.render(scene, camera);
+  controls.update();
+}
+
 init();
+animate();
