@@ -2,6 +2,8 @@
 var camera, scene, renderer, controls, spotlight;
 var geometry, material, mesh;
 
+var container = document.getElementById('container');
+
 function init() {
 	scene = new THREE.Scene();
 	
@@ -53,8 +55,7 @@ function init() {
 	renderer.setSize(width, height);
 	controls = new THREE.OrbitControls(camera, renderer.domElement);
 
-	document.body.appendChild(renderer.domElement);
-	renderer.render(scene, camera);
+	container.appendChild(renderer.domElement);
 }
 
 function animate() {
