@@ -6,7 +6,7 @@ var container = document.getElementById('container');
 var mesh = null;
 function initMesh() {
     var loader = new THREE.JSONLoader();
-    loader.load('media/icecream.json', function(g) {
+    loader.load('media/random.json', function(g) {
         mesh = new THREE.Mesh(g);
         scene.add(mesh);
     });
