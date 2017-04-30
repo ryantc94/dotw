@@ -28,6 +28,22 @@ function init() {
   light.position.set(1, 1, 1);
   scene.add(light);
 
+  spotlight = new THREE.SpotLight(0xffffff, 0.8, 2000); // color, intensity, distance
+  spotlight.position.set(500, 500, 500);
+  spotlight.castShadow = true;
+  scene.add(spotlight);
+
+  // shadow map texture width
+  spotlight.shadow.mapSize.width = 4096;
+  // shadow map texture height
+  spotlight.shadow.mapSize.height = 4096;
+  // perspective shadow camera frustum near parameter
+  spotlight.shadow.camera.near = 500;
+  // perspective shadow camera frustum far parameter
+  spotlight.shadow.camera.far = 2000;
+  // perspective shadow camera frustum field of view
+  spotlight.shadow.camera.fov = 45;
+
   var modelMaterial = new THREE.MeshStandardMaterial({color: 0xffffff})
 
   var loader = new THREE.BufferGeometryLoader();
