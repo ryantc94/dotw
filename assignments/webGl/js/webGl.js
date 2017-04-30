@@ -33,9 +33,9 @@ function init() {
   var loader = new THREE.BufferGeometryLoader();
 
   loader.load('media/icecream.json', function(modelGeometry) {
-    var modelMesh = new THREE.Mesh(modelGeometry, modelMaterial);
-    modelMesh.scale.set(40, 40, 40);
-    scene.add(modelMesh);
+    mesh = new THREE.Mesh(modelGeometry, modelMaterial);
+    mesh.scale.set(40, 40, 40);
+    scene.add(mesh);
   });
  
   var planeMaterial = new THREE.MeshStandardMaterial({color: 0xffffff, side: THREE.DoubleSide});
@@ -54,8 +54,8 @@ function init() {
 function animate() {
   requestAnimationFrame(animate);
 
-  modelMesh.rotation.y += 0.01;
-  modelMesh.rotation.x += 0.01;
+  mesh.rotation.y += 0.01;
+  mesh.rotation.x += 0.01;
 
   renderer.render(scene, camera);
   controls.update();
