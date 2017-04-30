@@ -39,7 +39,7 @@ function init() {
 
   var loader = new THREE.BufferGeometryLoader();
 
-  loader.load('media/fireMonkey.json', function(modelGeometry) {
+  loader.load('media/test2.json', function(modelGeometry) {
     var modelMesh = new THREE.Mesh(modelGeometry, modelMaterial);
     modelMesh.scale.set(40, 40, 40);
     scene.add(modelMesh);
