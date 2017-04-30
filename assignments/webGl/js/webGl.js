@@ -57,7 +57,7 @@ function animate() {
   mesh.rotation.y += 0.01;
   mesh.rotation.x += 0.01;
 
-  renderer.render(scene, camera);
+  renderer.render(scene, myCamera);
   controls.update();
 }
 
