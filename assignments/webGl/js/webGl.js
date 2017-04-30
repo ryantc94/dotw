@@ -7,7 +7,7 @@ function init() {
   scene = new THREE.Scene();
 
   // skybox files
-  var path = "images/glacier/";
+  var path = "media/skybox/glacier/";
   var format = ".jpg";
   var urls = [
     path + 'pos-x' + format, path + 'neg-x' + format,
