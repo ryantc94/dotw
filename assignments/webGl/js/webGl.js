@@ -28,10 +28,22 @@ function init() {
   light.position.set(1, 1, 1);
   scene.add(light);
 
-  material = new THREE.MeshBasicMaterial({envMap: scene.background});
-  geometry = new THREE.SphereGeometry(100, 50, 50);
-  mesh = new THREE.Mesh(geometry, material);
-  scene.add(mesh);
+  var modelMaterial = new THREE.MeshStandardMaterial({color: 0xffffff})
+
+  var loader = new THREE.BufferGeometryLoader();
+
+  loader.load('media/fireMonkey.json', function(modelGeometry) {
+    var modelMesh = new THREE.Mesh(modelGeometry, modelMaterial);
+    modelMesh.scale.set(40, 40, 40);
+    scene.add(modelMesh);
+  });
+ 
+  var planeMaterial = new THREE.MeshStandardMaterial({color: 0xffffff, side: THREE.DoubleSide});
+  var planeGeometry = new THREE.PlaneGeometry(1000, 1000, 10, 10);
+  var plane = new THREE.Mesh(planeGeometry, planeMaterial);
+  plane.rotation.x = Math.PI / -2;
+  plane.receiveShadow = true;
+  scene.add(plane);
 
   renderer = new THREE.WebGLRenderer({alpha: true, antialias: true});
   renderer.setSize(width, height);
