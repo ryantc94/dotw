@@ -7,7 +7,7 @@ function init() {
   scene = new THREE.Scene();
 
   // skybox files
-  var path = "media/skybox/";
+  var path = "images/glacier/";
   var format = ".jpg";
   var urls = [
     path + 'pos-x' + format, path + 'neg-x' + format,
@@ -37,14 +37,7 @@ function init() {
     modelMesh.scale.set(40, 40, 40);
     scene.add(modelMesh);
   });
- 
-  var planeMaterial = new THREE.MeshStandardMaterial({color: 0xffffff, side: THREE.DoubleSide});
-  var planeGeometry = new THREE.PlaneGeometry(1000, 1000, 10, 10);
-  var plane = new THREE.Mesh(planeGeometry, planeMaterial);
-  plane.rotation.x = Math.PI / -2;
-  plane.receiveShadow = true;
-  scene.add(plane);
-
+  
   renderer = new THREE.WebGLRenderer({alpha: true, antialias: true});
   renderer.setSize(width, height);
 
