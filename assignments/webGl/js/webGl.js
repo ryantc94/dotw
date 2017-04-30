@@ -54,15 +54,11 @@ function init() {
 function animate() {
   requestAnimationFrame(animate);
 
-  // Animate camera around sphere
-  var date = new Date();
-  var timer = date.getTime() * 0.0002;
-  myCamera.position.x = 600 * Math.cos(timer); // 600 is z position of camera
-  myCamera.position.z = 600 * Math.sin(timer);
-  myCamera.lookAt(scene.position);
-  myCamera.updateMatrixWorld();
+  mesh.rotation.y += 0.01;
+  mesh.rotation.x += 0.01;
 
-  renderer.render(scene, myCamera);
+  renderer.render(scene, camera);
+  controls.update();
 }
 
 init();
