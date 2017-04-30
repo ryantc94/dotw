@@ -47,6 +47,7 @@ function init() {
 
   renderer = new THREE.WebGLRenderer({alpha: true, antialias: true});
   renderer.setSize(width, height);
+  controls = new THREE.OrbitControls(camera, renderer.domElement);
 
   container.appendChild(renderer.domElement);
 }
@@ -55,7 +56,6 @@ function animate() {
   requestAnimationFrame(animate);
 
   mesh.rotation.y += 0.01;
-  mesh.rotation.x += 0.01;
 
   renderer.render(scene, myCamera);
   controls.update();
