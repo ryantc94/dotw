@@ -1,7 +1,16 @@
 var myCamera, scene, light, renderer, controls;
-var geometry, material, mesh;
+var geometry, material;
 
 var container = document.getElementById('container');
+
+var mesh = null;
+function initMesh() {
+    var loader = new THREE.JSONLoader();
+    loader.load('media/icecream.json', function(g) {
+        mesh = new THREE.Mesh(g);
+        scene.add(mesh);
+    });
+}
 
 function init() {
   scene = new THREE.Scene();
