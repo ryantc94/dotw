@@ -47,7 +47,7 @@ function init() {
 
   renderer = new THREE.WebGLRenderer({alpha: true, antialias: true});
   renderer.setSize(width, height);
-  controls = new THREE.OrbitControls(camera, renderer.domElement);
+  controls = new THREE.OrbitControls(myCamera, renderer.domElement);
 
   container.appendChild(renderer.domElement);
 }
