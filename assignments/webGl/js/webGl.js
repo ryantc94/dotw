@@ -49,7 +49,9 @@ function init() {
 function animate() {
   requestAnimationFrame(animate);
 
-  if (mesh) {
+  if(mesh) {
+    mesh.rotation.z += 0.02;
+    mesh.rotation.x += 0.02;
     mesh.rotation.y += 0.02;
   }
 
