@@ -6,16 +6,16 @@ var container = document.getElementById('container');
 function init() {
   scene = new THREE.Scene();
 
-  // // skybox files
-  // var path = "images/glacier/";
-  // var format = ".jpg";
-  // var urls = [
-  //   path + 'pos-x' + format, path + 'neg-x' + format,
-  //   path + 'pos-y' + format, path + 'neg-y' + format,
-  //   path + 'pos-z' + format, path + 'neg-z' + format
-  // ];
+  // skybox files
+  var path = "media/yokohoma/";
+  var format = ".jpg";
+  var urls = [
+    path + 'pos-x' + format, path + 'neg-x' + format,
+    path + 'pos-y' + format, path + 'neg-y' + format,
+    path + 'pos-z' + format, path + 'neg-z' + format
+  ];
 
-  // scene.background = new THREE.CubeTextureLoader().load(urls);
+  scene.background = new THREE.CubeTextureLoader().load(urls);
 
   var width = window.innerWidth;
   var height = window.innerHeight;
