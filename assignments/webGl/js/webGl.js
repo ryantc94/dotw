@@ -39,8 +39,10 @@ function init() {
 
   var loader = new THREE.BufferGeometryLoader();
 
+
+  //http://stackoverflow.com/questions/28203846/three-js-blender-is-only-exporting-a-single-object
   //if this works you have to click geometry and click faceMaterials then switch back to BufferedGeometry
-  loader.load('media/doge.json', function(modelGeometry) {
+  loader.load('media/test2.json', function(modelGeometry) {
     var modelMesh = new THREE.Mesh(modelGeometry, modelMaterial);
     modelMesh.scale.set(40, 40, 40);
     scene.add(modelMesh);
