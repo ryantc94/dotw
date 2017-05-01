@@ -3,6 +3,7 @@ var geometry, material, mesh;
 
 var container = document.getElementById('container');
 
+
 function init() {
   scene = new THREE.Scene();
 
@@ -20,8 +21,8 @@ function init() {
   var width = window.innerWidth;
   var height = window.innerHeight;
 
-  myCamera = new THREE.PerspectiveCamera(45, width/height, 100, 25000);
-  myCamera.position.set(0, 300, 800);
+  myCamera = new THREE.PerspectiveCamera(45, width/height, 1, 25000);
+  myCamera.position.set(0, 0, 600);
   scene.add(myCamera);
 
   light = new THREE.DirectionalLight(0xffffff, 1);
@@ -29,9 +30,7 @@ function init() {
   scene.add(light);
 
   material = new THREE.MeshStandardMaterial({envMap: scene.background, side: THREE.DoubleSide});
-
   var loader = new THREE.BufferGeometryLoader();
-
   loader.load('media/hallows.json', function(geometry) {
     mesh = new THREE.Mesh(geometry, material);
     mesh.scale.set(80, 80, 80);
@@ -41,7 +40,6 @@ function init() {
 
   renderer = new THREE.WebGLRenderer({alpha: true, antialias: true});
   renderer.setSize(width, height);
-  controls = new THREE.OrbitControls(myCamera, renderer.domElement);
 
   container.appendChild(renderer.domElement);
 }
@@ -67,5 +65,3 @@ function windowResize() {
 
 init();
 animate();
-
-window.addEventListener('resize', windowResize);
