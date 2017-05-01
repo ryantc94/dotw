@@ -40,7 +40,7 @@ function init() {
   var loader = new THREE.BufferGeometryLoader();
 
   //if this works you have to click geometry and click faceMaterials then switch back to BufferedGeometry
-  loader.load('media/iceCream3.json', function(modelGeometry) {
+  loader.load('media/monkey2.json', function(modelGeometry) {
     var modelMesh = new THREE.Mesh(modelGeometry, modelMaterial);
     modelMesh.scale.set(40, 40, 40);
     scene.add(modelMesh);
