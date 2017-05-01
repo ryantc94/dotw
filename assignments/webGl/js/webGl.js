@@ -32,7 +32,7 @@ function init() {
 
   var loader = new THREE.BufferGeometryLoader();
 
-  loader.load('media/earth.json', function(geometry) {
+  loader.load('media/hallows.json', function(geometry) {
     mesh = new THREE.Mesh(geometry, material);
     mesh.scale.set(80, 80, 80);
     mesh.position.y = -80;
