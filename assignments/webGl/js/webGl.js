@@ -1,7 +1,7 @@
 var myCamera, scene, light, renderer, controls;
 var geometry, material, mesh;
 
-var container = document.getElementById('symbol');
+var container = document.getElementById('container');
 
 function init() {
   scene = new THREE.Scene();
