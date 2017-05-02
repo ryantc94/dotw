@@ -10,6 +10,7 @@ img {
   z-index: -100;
 }
 
+
 #container {
   width: 200px;
   height: 200px;
@@ -17,20 +18,44 @@ img {
   margin-top: 200px;
   perspective: 800px;
   perspective-origin: 50% 50%;
-  transition-property: perspective-origin;
-  transition-duration: 0.5s;
 }
 
-.cube {
+#cube {
   position: relative;
   width: 200px;
   transform-style: preserve-3d;
+  transform-origin: 100px 100px;
+  transition-property: transform;
+  transition-duration: 1s;
 }
 
+.rotate-left {
+  transform: rotateX(0deg) rotateY(90deg);
+}
+
+.rotate-right {
+  transform: rotateX(0deg) rotateY(-90deg);
+}
+
+.rotate-top {
+  transform: rotateX(-90deg) rotateY(0deg);
+}
+
+.rotate-bottom {
+  transform: rotateX(90deg) rotateY(0deg);
+}
+
+.rotate-front {
+  transform: rotateX(0deg) rotateY(0deg);
+}
+
+.rotate-back {
+  transform: rotateX(0deg) rotateY(180deg);
+}
 
 /* cube faces */
-div.cube > div { /* child divs of .cube div */
-  border: solid;
+#cube > div { 
+  border:solid;
   position: absolute;
   width: 200px;
   height: 200px;
@@ -38,37 +63,37 @@ div.cube > div { /* child divs of .cube div */
   background-size: 200px 200px;
 }
 
-
 .front {
-	background-image: url('../media/m1.jpg');
+  background-image: url("../media/m1.jpg");
   transform: translateZ(100px);
 }
 
 .back {
-  background-image: url('../media/m1.jpg');
+  background-image: url("../media/m1.jpg");
   transform: translateZ(-100px) rotateY(180deg);
 }
 
 .right {
-  background-image: url('../media/m2.jpg');
+  background-image: url("../media/m2.jpg");
   transform: rotateY(-270deg) translateX(100px);
   transform-origin: top right;
 }
 
 .left {
-  background-image: url('../media/m2.jpg');
+  background-image: url("../media/m2.jpg");
   transform: rotateY(270deg) translateX(-100px);
   transform-origin: center left; /* top and/or center */
 }
 
 .top {
-	background-image: url('../media/m3.png');
+  background-image: url("../media/m3.png");
   transform: rotateX(-90deg) translateY(-100px);
   transform-origin: top center;
 }
 
 .bottom {
-	background-image: url('../media/m3.png');
+  background-image: url("../media/m3.png");
   transform: rotateX(90deg) translateY(100px);
   transform-origin: bottom center;
 }
+
