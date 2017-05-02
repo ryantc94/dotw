@@ -1,0 +1,42 @@
+.panel {
+	width: 100px;
+	height: 700;
+	/*border: solid;*/
+	position: absolute;
+	background-color: black;
+	position:absolute;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 130px;
+    height: 100%;
+}
+#video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+}
+#panel_0{
+	left: -260px;
+}
+#panel_1 {
+	left: 0px;
+}
+#panel_2 {
+	left: 260px;
+}
+#panel_3 {
+	left: 520px;
+}
+#panel_4 {
+	left: 780px;
+}
+#panel_5 {
+	left: 1040px;
+}
