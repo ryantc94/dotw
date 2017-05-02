@@ -21,20 +21,12 @@ img {
   transition-duration: 0.5s;
 }
 
-#container:active {
-  perspective-origin: -50% 30%;
-}
-
 .cube {
   position: relative;
   width: 200px;
   transform-style: preserve-3d;
-  transition: transform 1s;
 }
 
-.cube:hover {
-  transform: rotateY(-180deg);
-}
 
 /* cube faces */
 div.cube > div { /* child divs of .cube div */
