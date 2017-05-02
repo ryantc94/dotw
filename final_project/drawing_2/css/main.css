@@ -1,10 +1,7 @@
 .panel {
-	width: 100px;
-	height: 700;
 	/*border: solid;*/
 	position: absolute;
 	background-color: black;
-	position:absolute;
     padding:0;
     margin:0;
     top:0;
