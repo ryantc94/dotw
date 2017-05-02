@@ -1,5 +1,5 @@
 
-var cube = document.getElementByClassName("cube");
+var cube = document.getElementsByClassName("cube");
 
 cube.addEventListener("onclick", function() {
 	var x = event.clientX;     
