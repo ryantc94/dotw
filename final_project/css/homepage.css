@@ -24,15 +24,15 @@ a {
 
 #drawing_1:hover{
 	background-size: contain;
-	background-image: url("/media/cube.jpg");
+	background-image: url("media/cube.jpg");
 }
 
 #drawing_2:hover{
 	background-size: contain;
-	background-image: url("/media/panels.png");	
+	background-image: url("media/panels.png");	
 }
 
 #drawing_3:hover{
 	background-size: contain;
-	background-image: url("/media/inifityRoom.jpg");	
+	background-image: url("media/inifityRoom.jpg");	
 }
